@@ -31,7 +31,8 @@ button::-moz-focus-inner {padding: 0;border: 0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;
+img{display: inline-block;
+    vertical-align: top;
     max-width: 100%;
     height: auto;
 }
@@ -256,7 +257,7 @@ body {
     
 }
 
-.card-section .velo-card {
+.velo-card {
     
     font-size: 20px;
     color: #2E2C34;
@@ -265,7 +266,7 @@ body {
     
     
 }
-.card-section .velo-card .velo-card-title {
+.velo-card .velo-card-title {
     display: block;
     font-size: 30px;
     font-weight: normal;
@@ -279,7 +280,7 @@ body {
     color:red;
 }
 
-.velo-card-img {
+.velo-card .velo-card-img {
     display: block;
     overflow: hidden;
     margin-top: 12px;
@@ -298,22 +299,15 @@ body {
     margin-bottom: 188px;
 }
 .stay-section {
-    display: block;
-    width: 100%px;
-    height: 850px;
-    margin-left: 60px;
-    text-align: left;
+    
     font-size: 20px;
     color: #8172A2;
-    
 }
+
 .stay-section .container {
-    max-width: 1026px; 
-    width: 100%;
-    padding-left: 20px; 
-    padding-right: 64px;
-    margin: auto;  
+    max-width: 1043px; 
 }
+
 .stay-section-title {
     display: block;
     font-size: 85px;
@@ -321,43 +315,43 @@ body {
     color: #49464F;
     margin-bottom: 39px;
 }
+.stay-section .stay-section-text {
+    max-width: 310px;
+}
 
 .stay-section p {
-width: 310px;
-text-align: left;
 margin-bottom: 174px;
 }
-.stay-section-row {
+.stay-section .stay-section-row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -63px;
+    margin: 0 -31px;
     overflow: hidden;
 }
 .stay-section .stay-section-column {
     width: 33.33%;
-    padding: 0 63px;
+    padding: 0 31px;
     
 }
-.stay-section .stay-velo-card {
+.stay-velo-card {
     font-size: 20px;
     color: #2E2C34;
     overflow: hidden;
 }
 
-.stay-section .stay-velo-card .stay-velo-card-img {
+.stay-velo-card .stay-velo-card-img {
     overflow: hidden;
     margin-top: 12px;
     border-radius: 12px;
     margin-bottom: 77px;
 }
-.stay-section .stay-velo-card .stay-velo-card-img a {
+.stay-velo-card .stay-velo-card-img a {
     display: block;
 }
-.stay-section .stay-velo-card .stay-velo-card-title {
+.stay-velo-card .stay-velo-card-title {
     display: block;
     font-size: 22px;
     font-weight: normal;
-    text-align: left;
     margin-bottom: 77px;
     
 }
